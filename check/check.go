@@ -78,6 +78,7 @@ type Check struct {
 	State             `json:"status"`
 	ActualValue       string `json:"actual_value"`
 	Scored            bool   `json:"scored"`
+	Kind              string `json:"kind"`
 	IsMultiple        bool   `yaml:"use_multiple_values"`
 	ExpectedResult    string `json:"expected_result"`
 	Reason            string `json:"reason,omitempty"`
